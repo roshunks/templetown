@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Places to go</title>
+ <link rel="stylesheet" type="text/css" href="templetown.css">
+</head>
+    <body>
+<h1>WHAT'S FAMOUS HERE?</h1>
+
+  <div class="column">
+    <div class="card">
+        <nav>
+      <center><img src="C:\Users\Roshun KS\Desktop\ss\kumcof.jpg" alt="Coffee" style="width:40%"></center></nav>
+      <div class="container">
+        <h2>DEGREE COFFEE</h2>
+        <p class="title">Coffee</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+<nav>
+      <center><img src="C:\Users\Roshun KS\Desktop\ss\pii2.jpg" alt="TEMPLE" style="width:40%"></center></nav>
+      <div class="container">
+        <h2>TEMPLES</h2>
+        <p class="title">Built centuries ago</p>
+        <p><button class="button">View Temples</button></p>
+      </div>
+    </div>
+  </div>
+
+
+ <div class="column">
+    <div class="card">
+     <nav>
+      <center><img src="C:\Users\Roshun KS\Desktop\ss\vess.jpg" alt="Vessels" style="width:40%"></center></nav>
+      <div class="container">
+        <h2>VESSELS</h2>
+        <p class="title">vessels</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+
+   <div class="column">
+    <div class="card">
+      <nav>
+      <center><img src="C:\Users\Roshun KS\Desktop\ss\kumcof.jpg" alt="Coffee" style="width:40%"></center></nav>
+      <div class="container">
+        <h2>IDOLS</h2>
+        <p class="title">Idols</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+
+   <div class="column">
+    <div class="card">
+        <nav>
+      <center><img src="C:\Users\Roshun KS\Desktop\ss\kumcof.jpg" alt="Coffee" style="width:40%"></center></nav>
+      <div class="container">
+        <h2>WEAVING</h2>
+        <p class="title">Weaving</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+
+   <div class="column">
+    <div class="card">
+      <nav>
+      <center><img src="C:\Users\Roshun KS\Desktop\ss\kumcof.jpg" alt="Coffee" style="width:40%"></center></nav>
+      <div class="container">
+        <h2>METAL SCULPTING</h2>
+        <p class="title">About sculptors</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+
+   <div class="column">
+    <div class="card">
+      <nav>
+      <center><img src="C:\Users\Roshun KS\Desktop\ss\kumcof.jpg" alt="Coffee" style="width:40%"></center></nav>
+      <div class="container">
+        <h2>WHOLESALE MARKET</h2>
+        <p class="title">Art Director</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>example@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+    <nav>
+      <center><img src="C:\Users\Roshun KS\Desktop\ss\kumcof.jpg" alt="Coffee" style="width:40%"></center></nav>
+      <div class="container">
+        <h2>SILK SAREES</h2>
+        <p class="title">Designer</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>example@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+    </body>
+
+    <script>
+  const portfolioItems = document.querySelectorAll('.portfolio-item-wrapper');
+
+  portfolioItems.forEach(portfolioItem => {
+    portfolioItem.addEventListener('mouseover', () => {
+      console.log(portfolioItem.childNodes[1].classList)
+      portfolioItem.childNodes[1].classList.add('image-blur');
+    });
+
+    portfolioItem.addEventListener('mouseout', () => {
+      console.log(portfolioItem.childNodes[1].classList)
+      portfolioItem.childNodes[1].classList.remove('image-blur');
+    });
+  });
+
+</script>
+</html>

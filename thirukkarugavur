@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>TEMPLES</title>
+  <div class="container">
+    <div class="nav-wrapper">
+      <div class="left-side">
+        <div class="nav-link-wrapper active-nav-link">
+          <a href="1.html">HOME</a>
+        </div>
+         <div class="right-side">
+        <div class="brand">
+          🏛 TEMPLES
+        </div>
+      </div>
+   </div>
+      </div>
+ </div>
+ <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link rel="stylesheet" href="1css.css">
+</head>
+<body>
+	<p><center><div class="portfolio-img-background"
+style="background-image:url(https://upload.wikimedia.org/wikipedia/commons/7/77/Gopuram_view_from_Temple_tank.JPG")></div></p>
+
+<p><b>A b o u t :</b></p>
+<p>Locaton: Therkku Vasal, Thirukarukavur, Papanasam, Tamil Nadu 610001</p>
+<p>Main god:</p>
+<p>The temple opens at 5am–12:30pm and 4–8:30pm</p>
+<p>Significance:</p>
+<p>The place is also called Tirukalavur, Mullaivanam, Mathavipuram and Garabapuri. Since Mathavi is the temple tree, it is called Mathavipuram (Mullaivanam); Karu means womb, Ka means save and oor means village - Since womb is believed to be saved by the temple deity, the village is called Tirukarukavoor.</p>
+<p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.242857751044!2d79.2746431146234!3d10.869124192258662!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baac9451b3356d7%3A0xf650bc8f6771c33c!2sSri%20Garbarakshambigai%20Temple%20Thirukarukavur%2C%20Official%20Page!5e0!3m2!1sen!2sin!4v1591639975864!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></p>
+</body>
+</html>
